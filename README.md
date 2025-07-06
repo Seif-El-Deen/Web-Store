@@ -59,4 +59,36 @@ AND pc.prod_cat_cat_id IN (select pc2.prod_cat_cat_id from product_categories pc
 AND p.created_by = (select p1.created_by from products p1 where p1.prod_id = 5)
 ```
 
+### Trigger to lock the field (product on hand) quantity with product id = 120 from being updated
+``` sql
+DELIMITER $$
 
+CREATE TRIGGER trg_block_prod_on_hand_update
+BEFORE UPDATE ON products
+FOR EACH ROW
+BEGIN
+  IF OLD.prod_id = 120 AND NEW.prod_on_hand <> OLD.prod_on_hand THEN
+	  SIGNAL SQLSTATE '45000'
+	  SET MESSAGE_TEXT = 'Update not allowed: prod_on_hand is locked for product ID 120';
+  END IF;
+END$$
+
+DELIMITER ;
+```
+
+### Trigger to lock row with product id = 120 from being updated
+``` sql
+DELIMITER $$
+
+CREATE TRIGGER trg_block_prod_on_hand_update
+BEFORE UPDATE ON products
+FOR EACH ROW
+BEGIN
+  IF OLD.prod_id = 120 THEN
+	  SIGNAL SQLSTATE '45000'
+	  SET MESSAGE_TEXT = 'Update not allowed: prod_on_hand is locked for product ID 120';
+  END IF;
+END$$
+
+DELIMITER ;
+```
