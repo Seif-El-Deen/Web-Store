@@ -43,8 +43,20 @@ having sum(o.total_amount) > 500;
 ``` sql
 select * 
 from products
-where LOWER(product_name) like '%camera%'
-OR LOWER(description) like '%camera%';
+where LOWER(prod_name) like '%camera%'
+OR LOWER(prod_desc) like '%camera%';
 ```
 
-### 
+### A query to suggest popular products in the same category for the same author, excluding the Purchsed product from the recommendations.(= Suppose we have a created by column refering to the author)
+``` sql
+SELECT distinct p.* 
+FROM products p
+LEFT JOIN product_categories pc
+ON pc.prod_cat_prod_id = p.prod_id
+-- AND pc.prod_cat_detault = 'Y'
+WHERE p.prod_id != 5
+AND pc.prod_cat_cat_id IN (select pc2.prod_cat_cat_id from product_categories pc2 where pc2.prod_cat_prod_id = 5)
+AND p.created_by = (select p1.created_by from products p1 where p1.prod_id = 5)
+```
+
+
