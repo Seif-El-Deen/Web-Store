@@ -8,7 +8,7 @@
   
 ## Relationship between entities 
 - **`Customer` - `Order`**
-  - One-to-many (1:M)  
+  - One-to-many (1:M) 
   ➤ One customer can make many orders.
 - **`Order` - `Order Items`**
   - One-to-many (1:M)
