@@ -7,20 +7,20 @@
 -  `Customer`, `Product`, `Category`, `Order`, `Order Items`
   
 ## Relationship between entities 
-- **`Customer` → `Order`**
+- **`Customer` - `Order`**
   - One-to-many (1:M)
   ➤ One customer can make many orders.
-- **Order → Order Items**
+- **`Order` - `Order Items`**
   - One-to-many (1:M)
   ➤ One Order can have many order items.
-- **Product → Order Items**
+- **`Product` - `Order Items`**
   - One-to-many (1:M)
   ➤ One Product can exist in many order items.
-- **Product → Category**
+- **`Product` - `Category`**
   - Many-to-many (M:M)
   ➤ One Product can belong to many categories & a single category can include many products.
-- **Category → Category**
-  - One-to-many (M:M)
+- **`Category` - `Category`**
+  - One-to-many (1:M)
   ➤ One Category can be parent to many other categories.
 
 
