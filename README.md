@@ -4,7 +4,7 @@
 <img src="https://raw.githubusercontent.com/Seif-El-Deen/Web-Store/refs/heads/main/Diagrams/Web%20Store%20ERD.png " width="600" height="450" alt="E-Commerce ERD" />
 
 ## Entities
--  `Customer`   `Product`   `Category`   `Order`   `Order Items`
+-  `Customer`, `Product`, `Category`, `Order`, `Order Items`
   
 ## Relationship between entities 
 - **`Customer` - `Order`**
