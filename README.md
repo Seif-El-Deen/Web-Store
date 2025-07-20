@@ -1,13 +1,13 @@
 # Web-Store
 
 ## ERD
-<img src="https://raw.githubusercontent.com/Seif-El-Deen/Web-Store/refs/heads/main/Diagrams/Web%20Store%20ERD.png " width="800" height="600" alt="E-Commerce ERD" />
+<img src="https://raw.githubusercontent.com/Seif-El-Deen/Web-Store/refs/heads/main/Diagrams/Web%20Store%20ERD.png " width="400" height="300" alt="E-Commerce ERD" />
 
 ## Entities
 -  `Customer`, `Product`, `Category`, `Order`, `Order Items`
   
 ## Relationship between entities 
-- **Customer → Order**
+- **`Customer` → `Order`**
   - One-to-many (1:M)
   ➤ One customer can make many orders.
 - **Order → Order Items**
