@@ -1,4 +1,4 @@
-# Web-Store
+# E-Commerce
 
 ## ERD
 <img src="https://raw.githubusercontent.com/Seif-El-Deen/Web-Store/refs/heads/main/Diagrams/Web%20Store%20ERD.png " width="400" height="300" alt="E-Commerce ERD" />
