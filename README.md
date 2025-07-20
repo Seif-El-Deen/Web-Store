@@ -3,6 +3,29 @@
 ## ERD
 ![Web Store ERD!](https://raw.githubusercontent.com/Seif-El-Deen/Web-Store/refs/heads/main/Diagrams/Web%20Store%20ERD.png)
 
+## Entities
+-  `Customer`, `Product`, `Category`, `Order`, `Order Items`
+  
+## Relationship between entities 
+- **Customer → Order**
+  - One-to-many (1:M)
+  ➤ One customer can make many orders.
+- **Order → Order Items**
+  - One-to-many (1:M)
+  ➤ One Order can have many order items.
+- **Product → Order Items**
+  - One-to-many (1:M)
+  ➤ One Product can exist in many order items.
+- **Product → Category**
+  - Many-to-many (M:M)
+  ➤ One Product can belong to many categories & a single category can include many products.
+- **Category → Category**
+  - One-to-many (M:M)
+  ➤ One Category can be parent to many other categories.
+
+
+
+
 ## Reporting Queries
 
 ### SQL query to generate a daily report of the total revenue for a specific date.
