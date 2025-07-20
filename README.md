@@ -23,7 +23,9 @@
   - One-to-many (1:M)  
   ➤ One Category can be parent to many other categories.
 
-
+## MySql Scripts
+### 🧱 Tables Creation
+🔗 [`Tables Creation.sql`](Scripts/Tables Creation.sql)
 
 
 ## Reporting Queries
