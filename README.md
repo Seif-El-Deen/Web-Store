@@ -25,7 +25,7 @@
 
 ## MySql Scripts
 ### 🧱 Tables Creation
-🔗 [`Tables Creation.sql`](Scripts/Tables Creation.sql)
+🔗 [`Scripts/Tables Creation.sql`](Scripts/Tables Creation.sql)
 
 
 ## Reporting Queries
