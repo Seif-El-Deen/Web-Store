@@ -10,6 +10,16 @@ A fully structured MySQL database for an e-commerce platform, including:
 Perfect for learning, testing, or as a foundation for an online store.
 
 ---
+## 📌 Project Structure
+`Diagrams/`: Contains The ERD Diagram
+`Scripts/`: Contains Scripts for 
+	- Creating the tables
+	- Procedures to creating massive amounts of data
+ 	- Report queries
+  	- Sample queries to test performance
+  	- Triggers to denormalization the data
+
+
 
 ## 📁 Table of Contents
 
