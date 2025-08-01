@@ -11,8 +11,8 @@ Perfect for learning, testing, or as a foundation for an online store.
 
 ---
 ## 📌 Project Structure
-`Diagrams/`: Contains The ERD Diagram
-`Scripts/`: Contains Scripts for 
+- `Diagrams/`: Contains The ERD Diagram
+- `Scripts/`: Contains Scripts for 
 	- Creating the tables
 	- Procedures to creating massive amounts of data
  	- Report queries
