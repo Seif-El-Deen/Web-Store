@@ -2,9 +2,7 @@
 
 A fully structured MySQL database for an e-commerce platform, including:
 - **Normalized schema** with categories, products, customers, orders, and order items
-- **Realistic hierarchical categories** (Electronics, Fashion, Books, etc.)
-- **150+ products** with images, pricing, and inventory
-- **200+ customers** and **5 million+ orders** (scalable)
+- **1 Million products**, **10k Categories**, **3 Million customers** and **5 million orders** (scalable)
 - **Triggers, constraints, and transactions** for data integrity
 - **Bulk data generation scripts** for testing and development
 
