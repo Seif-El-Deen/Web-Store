@@ -31,31 +31,19 @@ Perfect for learning, testing, or as a foundation for an online store.
 ✅ **Bulk Data Generation** (up to 5M+ orders)  
 ✅ **Realistic Constraints** (e.g., `ord_ship_date > ord_date`)  
 ✅ **Error Handling** in stored procedures  
-- [📊 Database Schema](#-database-schema)
-- [🚀 How to Use](#-how-to-use)
-- [🎯 Sample Data Included](#-sample-data-included)
-- [🧩 Key Concepts Demonstrated](#-key-concepts-demonstrated)
-- [🛠 Troubleshooting](#-troubleshooting)
-- [📜 License](#-license)
 
 ---
-
-
-
-
-
-
 ## ERD
 <img src="https://raw.githubusercontent.com/Seif-El-Deen/Web-Store/refs/heads/main/Diagrams/Web%20Store%20ERD.png " width="600" height="450" alt="E-Commerce ERD" />
 
 ## Entities
--  `Customer`, `Product`, `Category`, `Order`, `Order Items`
+-  `Customer`, `Product`, `Category`, `Orders`, `Order Items`
   
 ## Relationship between entities 
 - **`Customer` - `Order`**
   - One-to-many (1:M)  
   ➤ One customer can make many orders.
-- **`Order` - `Order Items`**
+- **`Orders` - `Order Items`**
   - One-to-many (1:M)  
   ➤ One Order can have many order items.
 - **`Product` - `Order Items`**
@@ -68,12 +56,12 @@ Perfect for learning, testing, or as a foundation for an online store.
   - One-to-many (1:M)  
   ➤ One Category can be parent to many other categories.
 
-## MySql Scripts
+## Scripts
 ### 🧱 Tables Creation
 🔗 [Tables Creation](Scripts/Tables%20Creation.sql)
 
 
-## Reporting Queries
+## 📄 Reports
 
 ### SQL query to generate a daily report of the total revenue for a specific date.
 ```sql
