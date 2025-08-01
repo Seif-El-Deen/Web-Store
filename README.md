@@ -22,15 +22,15 @@ Perfect for learning, testing, or as a foundation for an online store.
 ---
 ## 🔧 Features
 
-	✅ **Normalized Relational Design**  
-	✅ **Hierarchical Categories** (with self-referencing `category` table)  
-	✅ **Product-to-Category Mapping** (many-to-many via `product_categories`)  
-	✅ **Order Management System** with `orders` and `order_items`  
-	✅ **Data Integrity** via foreign keys, checks, and triggers  
-	✅ **Row-Level Locking & Transactions** for safe inventory updates  
-	✅ **Bulk Data Generation** (up to 5M+ orders)  
-	✅ **Realistic Constraints** (e.g., `ord_ship_date > ord_date`)  
-	✅ **Error Handling** in stored procedures  
+✅ **Normalized Relational Design**  
+✅ **Hierarchical Categories** (with self-referencing `category` table)  
+✅ **Product-to-Category Mapping** (many-to-many via `product_categories`)  
+✅ **Order Management System** with `orders` and `order_items`  
+✅ **Data Integrity** via foreign keys, checks, and triggers  
+✅ **Row-Level Locking & Transactions** for safe inventory updates  
+✅ **Bulk Data Generation** (up to 5M+ orders)  
+✅ **Realistic Constraints** (e.g., `ord_ship_date > ord_date`)  
+✅ **Error Handling** in stored procedures  
 - [📊 Database Schema](#-database-schema)
 - [🚀 How to Use](#-how-to-use)
 - [🎯 Sample Data Included](#-sample-data-included)
