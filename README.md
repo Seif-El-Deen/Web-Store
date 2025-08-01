@@ -4,6 +4,7 @@ A fully structured MySQL database for an e-commerce platform, including:
 - **Normalized schema** with categories, products, customers, orders, and order items
 - **1 Million products**, **10k Categories**, **3 Million customers** and **5 million orders** (scalable)
 - **Triggers, constraints, and transactions** for data integrity
+- **Procedures** for creating more data
 - **Bulk data generation scripts** for testing and development
 
 Perfect for learning, testing, or as a foundation for an online store.
@@ -12,17 +13,7 @@ Perfect for learning, testing, or as a foundation for an online store.
 
 ## 📁 Table of Contents
 
-- [🔧 Features](#-features)
-- [📊 Database Schema](#-database-schema)
-- [🚀 How to Use](#-how-to-use)
-- [🎯 Sample Data Included](#-sample-data-included)
-- [🧩 Key Concepts Demonstrated](#-key-concepts-demonstrated)
-- [🛠 Troubleshooting](#-troubleshooting)
-- [📜 License](#-license)
-
----
-
-## 🔧 Features
+- ### 🔧 Features
 
 ✅ **Normalized Relational Design**  
 ✅ **Hierarchical Categories** (with self-referencing `categories` table)  
@@ -33,6 +24,16 @@ Perfect for learning, testing, or as a foundation for an online store.
 ✅ **Bulk Data Generation** (up to 5M+ orders)  
 ✅ **Realistic Constraints** (e.g., `ord_ship_date > ord_date`)  
 ✅ **Error Handling** in stored procedures  
+- [📊 Database Schema](#-database-schema)
+- [🚀 How to Use](#-how-to-use)
+- [🎯 Sample Data Included](#-sample-data-included)
+- [🧩 Key Concepts Demonstrated](#-key-concepts-demonstrated)
+- [🛠 Troubleshooting](#-troubleshooting)
+- [📜 License](#-license)
+
+---
+
+
 
 ---
 
