@@ -14,19 +14,16 @@ Perfect for learning, testing, or as a foundation for an online store.
 - `Diagrams/`: Contains The ERD Diagram
 - `Scripts/`: Contains Scripts for 
 	- Creating the tables
-	- Procedures to creating massive amounts of data
+	- Procedures to insert massive amounts of data into the tables
  	- Report queries
   	- Sample queries to test performance
   	- Triggers to denormalization the data
 
-
-
-## 📁 Table of Contents
-
-- ### 🔧 Features
+---
+## 🔧 Features
 
 	✅ **Normalized Relational Design**  
-	✅ **Hierarchical Categories** (with self-referencing `categories` table)  
+	✅ **Hierarchical Categories** (with self-referencing `category` table)  
 	✅ **Product-to-Category Mapping** (many-to-many via `product_categories`)  
 	✅ **Order Management System** with `orders` and `order_items`  
 	✅ **Data Integrity** via foreign keys, checks, and triggers  
@@ -45,24 +42,7 @@ Perfect for learning, testing, or as a foundation for an online store.
 
 
 
----
 
-## 📊 Database Schema
-
-### Tables
-| Table | Description |
-|------|-------------|
-| `categories` | Hierarchical product categories (e.g., Electronics → Phones → Smartphones) |
-| `products` | Product details (price, weight, stock, etc.) |
-| `product_categories` | Many-to-many link between products and categories |
-| `customers` | Customer information |
-| `orders` | Order headers (total, date, shipping, etc.) |
-| `order_items` | Line items for each order |
-| `temp_orders` (optional) | Temporary table for safe data processing |
-
-> 📂 **ER Diagram**: [Include a screenshot or link to your diagram here]
-
----
 
 
 ## ERD
@@ -197,3 +177,7 @@ FOR UPDATE;
 -- Commit or rollback to release the lock
 COMMIT;
 ```
+
+## 🔧🔨 Tools
+- MySQL  Ver 8.0.41
+- MySQL Workbench 
