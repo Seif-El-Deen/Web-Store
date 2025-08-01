@@ -1,4 +1,60 @@
-# E-Commerce
+# 🛒 E-Commerce Database
+
+A fully structured MySQL database for an e-commerce platform, including:
+- **Normalized schema** with categories, products, customers, orders, and order items
+- **Realistic hierarchical categories** (Electronics, Fashion, Books, etc.)
+- **150+ products** with images, pricing, and inventory
+- **200+ customers** and **5 million+ orders** (scalable)
+- **Triggers, constraints, and transactions** for data integrity
+- **Bulk data generation scripts** for testing and development
+
+Perfect for learning, testing, or as a foundation for an online store.
+
+---
+
+## 📁 Table of Contents
+
+- [🔧 Features](#-features)
+- [📊 Database Schema](#-database-schema)
+- [🚀 How to Use](#-how-to-use)
+- [🎯 Sample Data Included](#-sample-data-included)
+- [🧩 Key Concepts Demonstrated](#-key-concepts-demonstrated)
+- [🛠 Troubleshooting](#-troubleshooting)
+- [📜 License](#-license)
+
+---
+
+## 🔧 Features
+
+✅ **Normalized Relational Design**  
+✅ **Hierarchical Categories** (with self-referencing `categories` table)  
+✅ **Product-to-Category Mapping** (many-to-many via `product_categories`)  
+✅ **Order Management System** with `orders` and `order_items`  
+✅ **Data Integrity** via foreign keys, checks, and triggers  
+✅ **Row-Level Locking & Transactions** for safe inventory updates  
+✅ **Bulk Data Generation** (up to 5M+ orders)  
+✅ **Realistic Constraints** (e.g., `ord_ship_date > ord_date`)  
+✅ **Error Handling** in stored procedures  
+
+---
+
+## 📊 Database Schema
+
+### Tables
+| Table | Description |
+|------|-------------|
+| `categories` | Hierarchical product categories (e.g., Electronics → Phones → Smartphones) |
+| `products` | Product details (price, weight, stock, etc.) |
+| `product_categories` | Many-to-many link between products and categories |
+| `customers` | Customer information |
+| `orders` | Order headers (total, date, shipping, etc.) |
+| `order_items` | Line items for each order |
+| `temp_orders` (optional) | Temporary table for safe data processing |
+
+> 📂 **ER Diagram**: [Include a screenshot or link to your diagram here]
+
+---
+
 
 ## ERD
 <img src="https://raw.githubusercontent.com/Seif-El-Deen/Web-Store/refs/heads/main/Diagrams/Web%20Store%20ERD.png " width="600" height="450" alt="E-Commerce ERD" />
