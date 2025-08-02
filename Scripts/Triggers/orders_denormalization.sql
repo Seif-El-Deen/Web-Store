@@ -1,3 +1,6 @@
+-- Trigger to create sale history, when a new order is made in the 'Orders' table, automatically generates a sale history record for that order,
+-- capturing details such as (order_id, customer_id, product_id, total_amount, quantity, order_date), After order insertion.
+
 DELIMITER $$
 
 CREATE TRIGGER trg_sale_history
