@@ -57,9 +57,14 @@ Perfect for learning, testing, or as a foundation for an online store.
   ➤ One Category can be parent to many other categories.
 
 ## Scripts
-### 🧱 `Tables Creation`
+### 🧱 Tables Creation
 🔗 [Tables Creation](Scripts/create_tables.sql)
 
+### 🧱 Triggers
+🔗 [Orders Denormalization Trigger](Scripts/Triggers/orders_denormalization.sql)
+
+### 🧱 Procedures
+🔗 [Orders Denormalization Trigger](Scripts/trg_orders_denormalization.sql)
 
 ## 📄 Reports
 
