@@ -64,7 +64,11 @@ Perfect for learning, testing, or as a foundation for an online store.
 - 🔗 [Orders Denormalization Trigger](Scripts/Triggers/orders_denormalization.sql)
 
 ### 🧱 Procedures
-- 🔗 [Orders Denormalization Trigger](Scripts/trg_orders_denormalization.sql)
+- 🔗 [Inserting Products](Scripts/Procedures/insert_dummy_products.sql)
+- 🔗 [Inserting Products](Scripts/Procedures/insert_dummy_customers.sql)
+- 🔗 [Inserting Products](Scripts/Procedures/insert_dummy_categories.sql)
+- 🔗 [Inserting Products](Scripts/Procedures/insert_random_dummy_orders.sql)
+
 
 ## 📄 Reports
 
