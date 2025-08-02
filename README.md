@@ -34,7 +34,8 @@ Perfect for learning, testing, or as a foundation for an online store.
 
 ---
 ## ERD
-<img src="https://raw.githubusercontent.com/Seif-El-Deen/Web-Store/refs/heads/main/Diagrams/Web%20Store%20ERD.png " width="600" height="450" alt="E-Commerce ERD" />
+🔗 [ERD Image](Diagrams/Web%20Store%20ERD.png)
+<img src="https://raw.githubusercontent.com/Seif-El-Deen/Web-Store/refs/heads/main/Diagrams/Web%20Store%20ERD.png" width="600" height="450" alt="E-Commerce ERD" style="display:none;" />
 
 ## Entities
 -  `Customer`, `Product`, `Category`, `Orders`, `Order Items`
