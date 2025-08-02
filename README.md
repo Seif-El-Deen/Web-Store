@@ -58,7 +58,7 @@ Perfect for learning, testing, or as a foundation for an online store.
 
 ## Scripts
 ### 🧱 Tables Creation
-- 🔗 [Tables Creation](Scripts/create_tables.sql)
+- 🔗 [Tables Creation](Scripts/Tables/create_tables.sql)
 
 ### 🧱 Triggers
 - 🔗 [Orders Denormalization Trigger](Scripts/Triggers/orders_denormalization.sql)
