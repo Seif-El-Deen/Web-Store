@@ -58,13 +58,13 @@ Perfect for learning, testing, or as a foundation for an online store.
 
 ## Scripts
 ### 🧱 Tables Creation
-🔗 [Tables Creation](Scripts/create_tables.sql)
+- 🔗 [Tables Creation](Scripts/create_tables.sql)
 
 ### 🧱 Triggers
-🔗 [Orders Denormalization Trigger](Scripts/Triggers/orders_denormalization.sql)
+- 🔗 [Orders Denormalization Trigger](Scripts/Triggers/orders_denormalization.sql)
 
 ### 🧱 Procedures
-🔗 [Orders Denormalization Trigger](Scripts/trg_orders_denormalization.sql)
+- 🔗 [Orders Denormalization Trigger](Scripts/trg_orders_denormalization.sql)
 
 ## 📄 Reports
 
