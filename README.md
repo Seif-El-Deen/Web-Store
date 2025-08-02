@@ -68,6 +68,7 @@ Perfect for learning, testing, or as a foundation for an online store.
 
 ### 🧱 Triggers
 - 🔗 [Orders Denormalization Trigger (Sale History)](Scripts/Triggers/orders_denormalization.sql)
+- 🔗 [Lock product on hand column in products table from being updated](Scripts/Triggers/lock_column_update_in_product_table.sql)
 
 ### 📄 Queries
 - 📅 [Daily Total Revenue](Scripts/Reports/daily_total_revenue.sql)
