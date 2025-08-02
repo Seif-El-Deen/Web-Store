@@ -67,7 +67,7 @@ Perfect for learning, testing, or as a foundation for an online store.
 - 🔗 [Inserting Random Orders](Scripts/Procedures/insert_random_dummy_orders.sql)
 
 ### 🧱 Triggers
-- 🔗 [Orders Denormalization Trigger](Scripts/Triggers/orders_denormalization.sql)
+- 🔗 [Orders Denormalization Trigger (Sale History)](Scripts/Triggers/orders_denormalization.sql)
 
 ### 📄 Reports
 - 📅 [Daily Total Revenue](Scripts/Reports/daily_total_revenue.sql)
