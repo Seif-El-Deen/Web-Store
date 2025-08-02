@@ -69,7 +69,7 @@ Perfect for learning, testing, or as a foundation for an online store.
 ### 🧱 Triggers
 - 🔗 [Orders Denormalization Trigger (Sale History)](Scripts/Triggers/orders_denormalization.sql)
 
-### 📄 Reports
+### 📄 Queries
 - 📅 [Daily Total Revenue](Scripts/Reports/daily_total_revenue.sql)
 - 📈 [Monthly Top Selling](Scripts/Reports/monthly_top_selling.sql)
 - 💰 [Custmers spending with more than 500 per month](Scripts/Reports/customers_monthly_spending_with_more_than_500.sql)
