@@ -76,9 +76,10 @@ Perfect for learning, testing, or as a foundation for an online store.
 - 📷 [Search For Camera in products](Scripts/Reports/search_for_camera_in_products.sql)
 - 👷 [Search by Product Author](Scripts/Reports/search_by_product_author.sql)
 - 🔒 [Locking a row from being updated](Scripts/Reports/row_locking.sql)
-- 📅 [Num. of products per category](Scripts/Reports/num_of_products_per_category.sql)
-- 📅 [Top customers with total spending](Scripts/Reports/top_customers_with_total_spending.sql)
-- 📅 [Customers with most recent orders](Scripts/Reports/customers_with_most_recent_orders.sql)
+- 📄 [Num. of products per category](Scripts/Reports/num_of_products_per_category.sql)
+- 📄 [Top customers with total spending](Scripts/Reports/top_customers_with_total_spending.sql)
+- 📄 [Customers with most recent orders](Scripts/Reports/customers_with_most_recent_orders.sql)
+- 📄 [Products with low stock quantity](Scripts/Reports/products_with_low_stock_quantities.sql)
 
 
 
