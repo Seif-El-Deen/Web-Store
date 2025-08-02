@@ -71,6 +71,12 @@ Perfect for learning, testing, or as a foundation for an online store.
 
 
 ## 📄 Reports
+- 🔗 [Daily Total Revenue](Scripts/Reports/daily_total_revenue.sql)
+- 🔗 [Monthly Top Selling](Scripts/Reports/monthly_top_selling.sql)
+- 🔗 [Search For Camera in products](Scripts/Reports/search_for_camera_in_products.sql)
+- 🔗 [Search by Product Author](Scripts/Reports/search_by_product_author.sql)
+- 🔗 [Custmers spending with more than 500 per month](Scripts/Reports/customers_monthly_spending_with_more_than_500.sql)
+
 
 ### SQL query to generate a daily report of the total revenue for a specific date.
 ```sql
