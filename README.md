@@ -65,9 +65,9 @@ Perfect for learning, testing, or as a foundation for an online store.
 
 ### 🧱 Procedures
 - 🔗 [Inserting Products](Scripts/Procedures/insert_dummy_products.sql)
-- 🔗 [Inserting Products](Scripts/Procedures/insert_dummy_customers.sql)
-- 🔗 [Inserting Products](Scripts/Procedures/insert_dummy_categories.sql)
-- 🔗 [Inserting Products](Scripts/Procedures/insert_random_dummy_orders.sql)
+- 🔗 [Inserting Customers](Scripts/Procedures/insert_dummy_customers.sql)
+- 🔗 [Inserting Categories](Scripts/Procedures/insert_dummy_categories.sql)
+- 🔗 [Inserting Random Orders](Scripts/Procedures/insert_random_dummy_orders.sql)
 
 
 ## 📄 Reports
