@@ -57,8 +57,8 @@ Perfect for learning, testing, or as a foundation for an online store.
   ➤ One Category can be parent to many other categories.
 
 ## Scripts
-### 🧱 Tables Creation
-🔗 [Tables Creation](Scripts/Tables%20Creation.sql)
+### 🧱 `Tables Creation`
+🔗 [Tables Creation](Scripts/create_tables.sql)
 
 
 ## 📄 Reports
