@@ -60,17 +60,16 @@ Perfect for learning, testing, or as a foundation for an online store.
 ### 🧱 Tables Creation
 - 🔗 [Tables Creation](Scripts/Tables/create_tables.sql)
 
-### 🧱 Triggers
-- 🔗 [Orders Denormalization Trigger](Scripts/Triggers/orders_denormalization.sql)
-
 ### 🧱 Procedures
 - 🔗 [Inserting Products](Scripts/Procedures/insert_dummy_products.sql)
 - 🔗 [Inserting Customers](Scripts/Procedures/insert_dummy_customers.sql)
 - 🔗 [Inserting Categories](Scripts/Procedures/insert_dummy_categories.sql)
 - 🔗 [Inserting Random Orders](Scripts/Procedures/insert_random_dummy_orders.sql)
 
+### 🧱 Triggers
+- 🔗 [Orders Denormalization Trigger](Scripts/Triggers/orders_denormalization.sql)
 
-## 📄 Reports
+### 📄 Reports
 - 🔗 [Daily Total Revenue](Scripts/Reports/daily_total_revenue.sql)
 - 🔗 [Monthly Top Selling](Scripts/Reports/monthly_top_selling.sql)
 - 🔗 [Search For Camera in products](Scripts/Reports/search_for_camera_in_products.sql)
