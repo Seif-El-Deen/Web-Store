@@ -75,7 +75,7 @@ Perfect for learning, testing, or as a foundation for an online store.
 - 💰 [Custmers spending with more than 500 per month](Scripts/Reports/customers_monthly_spending_with_more_than_500.sql)
 - 📷 [Search For Camera in products](Scripts/Reports/search_for_camera_in_products.sql)
 - 👷 [Search by Product Author](Scripts/Reports/search_by_product_author.sql)
-- 🔒 [Locking a row](Scripts/Reports/row_locking.sql)
+- 🔒 [Locking a row from being updated](Scripts/Reports/row_locking.sql)
 
 
 
