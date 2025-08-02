@@ -75,24 +75,9 @@ Perfect for learning, testing, or as a foundation for an online store.
 - 💰 [Custmers spending with more than 500 per month](Scripts/Reports/customers_monthly_spending_with_more_than_500.sql)
 - 📷 [Search For Camera in products](Scripts/Reports/search_for_camera_in_products.sql)
 - 👷 [Search by Product Author](Scripts/Reports/search_by_product_author.sql)
+- 🔒 [Locking a row](Scripts/Reports/row_locking.sql)
 
 
-### Trigger to create sale history, when a new order is made in the 'Orders' table, automatically generates a sale history record for that order, capturing details such as (order_id, customer_id, product_id, total_amount, quantity, order_date), After order insertion.
-``` sql
-DELIMITER $$
-
-CREATE TRIGGER trg_sale_history
-AFTER INSERT ON ORDERS
-FOR EACH ROW 
-BEGIN 
-	INSERT INTO sale_history(order_id, customer_id, product_id, total_amount, quantity, order_date)
-    SELECT NEW.ord_id, NEW.ord_cust_id, oi.ord_item_prod_id, oi.ord_item_qty*oi.ord_item_price, oi.ord_item_qty, NEW.ord_date
-    FROM order_items oi where oi.ord_item_ord_id = New.ord_id;
-    
-END$$
-
-DELIMITER ;
-```
 
 ### Trigger to lock the field (product on hand) quantity with product id = 120 from being updated
 ``` sql
@@ -111,20 +96,7 @@ END$$
 DELIMITER ;
 ```
 
-### Transaction query to lock product with product id 120 from being updated.
-``` sql
-START TRANSACTION;
 
--- Lock the row to prevent updates from other transactions
-SELECT * FROM products
-WHERE prod_id = 120
-FOR UPDATE;
-
--- You can do your business logic here (e.g., read or update other fields)
-
--- Commit or rollback to release the lock
-COMMIT;
-```
 
 ## 🔧🔨 Tools
 - MySQL  Ver 8.0.41
