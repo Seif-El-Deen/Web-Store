@@ -66,7 +66,7 @@ Perfect for learning, testing, or as a foundation for an online store.
 - 🔗 [Inserting Categories](Scripts/Procedures/insert_dummy_categories.sql)
 - 🔗 [Inserting Random Orders](Scripts/Procedures/insert_random_dummy_orders.sql)
 
-### 🧱 Triggers
+### ⚙ Triggers
 - 🔗 [Orders Denormalization Trigger (Sale History)](Scripts/Triggers/orders_denormalization.sql)
 - 🔗 [Lock product on hand column in products table from being updated](Scripts/Triggers/lock_column_update_in_product_table.sql)
 
