@@ -84,6 +84,6 @@ Perfect for learning, testing, or as a foundation for an online store.
 - 📄 [Total Revenue for each category](Scripts/Reports/total_revenue_for_each_category.sql)
 
 ---
-## 🔧🔨 Tools
+## 🛠️ Tools
 - MySQL  Ver 8.0.41
 - MySQL Workbench 
