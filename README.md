@@ -81,7 +81,7 @@ Perfect for learning, testing, or as a foundation for an online store.
 - 📄 [Num. of products per category](Scripts/Reports/num_of_products_per_category.md)
 - 📄 [Top customers with total spending](Scripts/Reports/top_customers_with_total_spending.md)
 - 📄 [Customers with most recent orders](Scripts/Reports/customers_with_most_recent_orders.sql)
-- 📄 [Products with low stock quantity](Scripts/Reports/products_with_low_stock_quantities.sql)
+- 📄 [Products with low stock quantity](Scripts/Reports/products_with_low_stock_quantities.md)
 - 📄 [Total Revenue for each category](Scripts/Reports/total_revenue_for_each_category.sql)
 
 ---
