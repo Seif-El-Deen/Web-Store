@@ -9,6 +9,16 @@ order by o.ord_date desc
 limit 1000;
 ```
 
+## To View Execution time and also run the query
+```sql
+explain analyze select CONCAT(c.cust_fname,' ', c.cust_lname) customer_name, o.ord_id order_id, o.ord_date order_date
+FROM customer c
+inner join orders o
+on c.cust_id = o.ord_cust_id
+order by o.ord_date desc
+limit 1000 \G;
+```
+
 ## Execution Time Before Optimization
 ```sql
 -> Limit: 1000 row(s)  (cost=903366 rows=1000) (actual time=923..1374 rows=1000 loops=1)
