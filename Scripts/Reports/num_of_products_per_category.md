@@ -7,7 +7,7 @@ FROM product_categories pc
 group by pc.prod_cat_cat_id;
 ```
 
-## To View Execution time and also run the query
+## To view execution time and also run the query
 ```sql
 explain analyze SELECT pc.prod_cat_cat_id, COUNT(*)
 FROM product_categories pc
