@@ -9,7 +9,7 @@ order by o.ord_date desc
 limit 1000;
 ```
 
-## To View Execution time and also run the query
+## To view execution time and also run the query
 ```sql
 explain analyze select CONCAT(c.cust_fname,' ', c.cust_lname) customer_name, o.ord_id order_id, o.ord_date order_date
 FROM customer c
