@@ -7,19 +7,19 @@ where p.prod_on_hand<10;
 ```
 ## Execution Time Before Optimization
 ```sql
--> Filter: (p.prod_on_hand < 10)  (cost=117067 rows=315647) (actual time=0.122..2104 rows=85301 loops=1)
-    -> Table scan on p  (cost=117067 rows=947035) (actual time=0.118..2012 rows=1e+6 loops=1)
+-> Filter: (p.prod_on_hand < 10)  (cost=115748 rows=315647) (actual time=0.053..1753 rows=85301 loops=1)
+    -> Table scan on p  (cost=115748 rows=947035) (actual time=0.049..1676 rows=1e+6 loops=1)
 ```
 
 ## Optimization Technique
 ### By adding a covering index on the the product id and stock quantity
 ```sql
-ALTER TABLE product ADD INDEX prod_id_and_prod_on_hand_idx (prod_id, prod_on_hand);
+ALTER TABLE product ADD INDEX prod_on_hand_idx (prod_on_hand);
 ```
 
 ## Execution Time After Optimization
 
 ```sql
--> Filter: (p.prod_on_hand < 10)  (cost=115783 rows=315647) (actual time=8.35..595 rows=85301 loops=1)
-    -> Covering index scan on p using prod_id_and_prod_on_hand_idx  (cost=115783 rows=947035) (actual time=8.34..518 rows=1e+6 loops=1)
+-> Filter: (p.prod_on_hand < 10)  (cost=34702 rows=172870) (actual time=0.0457..44.9 rows=85301 loops=1)
+    -> Covering index range scan on p using prod_on_hand_idx over (prod_on_hand < 10)  (cost=34702 rows=172870) (actual time=0.0441..38.8 rows=85301 loops=1)
 ```
