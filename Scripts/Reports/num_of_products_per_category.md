@@ -7,6 +7,13 @@ FROM product_categories pc
 group by pc.prod_cat_cat_id;
 ```
 
+## To View Execution time and also run the query
+```sql
+explain analyze SELECT pc.prod_cat_cat_id, COUNT(*)
+FROM product_categories pc
+group by pc.prod_cat_cat_id \G;
+```
+
 ## Execution Time Before Optimization
 ```sql
 -> Table scan on <temporary>  (actual time=0.17..0.174 rows=45 loops=1)
