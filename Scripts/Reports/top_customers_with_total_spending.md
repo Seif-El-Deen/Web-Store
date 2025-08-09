@@ -11,6 +11,19 @@ FROM GROUPED_ORDERS go
 INNER JOIN customer c
 on c.cust_id = go.customer_ID;
 ```
+
+## To view execution time and also run the query
+```sql
+exlpain analyze WITH GROUPED_ORDERS AS(
+select o.ord_cust_id as customer_ID,  sum(o.ord_total) as total_spending
+FROM orders o
+group by  o.ord_cust_id)
+SELECT CONCAT(c.cust_fname,' ', c.cust_lname) as customer_name, go.total_spending
+FROM GROUPED_ORDERS go 
+INNER JOIN customer c
+on c.cust_id = go.customer_ID \G;
+```
+
 ## Execution Time Before Optimization
 ```sql
 -> Nested loop inner join  (cost=713060 rows=0) (actual time=4885..15314 rows=668236 loops=1)
