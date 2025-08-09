@@ -5,6 +5,14 @@ select p.prod_id
 from product p
 where p.prod_on_hand<10;
 ```
+
+## To view execution time and also run the query
+```sql
+explain analyze select p.prod_id
+from product p
+where p.prod_on_hand<10 \G;
+```
+
 ## Execution Time Before Optimization
 ```sql
 -> Filter: (p.prod_on_hand < 10)  (cost=115748 rows=315647) (actual time=0.053..1753 rows=85301 loops=1)
