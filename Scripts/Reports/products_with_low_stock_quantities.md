@@ -7,7 +7,8 @@ where p.prod_on_hand<10;
 ```
 ## Execution Time Before Optimization
 ```sql
-
+-> Filter: (p.prod_on_hand < 10)  (cost=117067 rows=315647) (actual time=0.122..2104 rows=85301 loops=1)
+    -> Table scan on p  (cost=117067 rows=947035) (actual time=0.118..2012 rows=1e+6 loops=1)
 ```
 
 ## Optimization Technique
