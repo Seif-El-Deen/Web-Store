@@ -20,6 +20,6 @@ ALTER TABLE product ADD INDEX prod_on_hand_idx (prod_on_hand);
 ## Execution Time After Optimization
 
 ```sql
--> Filter: (p.prod_on_hand < 10)  (cost=34702 rows=172870) (actual time=0.0457..44.9 rows=85301 loops=1)
-    -> Covering index range scan on p using prod_on_hand_idx over (prod_on_hand < 10)  (cost=34702 rows=172870) (actual time=0.0441..38.8 rows=85301 loops=1)
+-> Filter: (p.prod_on_hand < 10)  (cost=34702 rows=172870) (actual time=0.0315..44.1 rows=85301 loops=1)
+    -> Covering index range scan on p using prod_on_hand_idx over (prod_on_hand < 10)  (cost=34702 rows=172870) (actual time=0.03..37.8 rows=85301 loops=1)
 ```
